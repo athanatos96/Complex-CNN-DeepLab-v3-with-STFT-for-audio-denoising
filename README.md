@@ -36,16 +36,7 @@ Resnet base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec16
 
 
 ## Requirements
-```text
-torch==1.1
-soundfile==0.9.0
-easydict==1.9
-git+https://github.com/keunwoochoi/torchaudio-contrib@61fc6a804c941dec3cf8a06478704d19fc5e415a
-git+https://github.com/sweetcocoa/PinkBlack@e45a65623c1b511181f7ea697ca841a7b2900f17
-torchcontrib==0.0.2
-git+https://github.com/vBaiCai/python-pesq
-# gputil # if you need to execute multiple training process
-```
+See file requirements.txt
 
 ## Train
 ---
