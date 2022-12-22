@@ -8,9 +8,10 @@ PyTorch Implementation of [Complex Convolution Neural Network model (Complex Dee
 
 Original Code from https://github.com/sweetcocoa/DeepComplexUNetPyTorch/
 
-
+### Deep Lab V3
 Code was adapted to work for Deep Lab V3 [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1706.05587), (L-C. Chen et al., 2017) 
 
+#### Complex Layers
 New functions adapted from https://github.com/wavefrontshaping/complexPyTorch/blob/70a511c1bedc4c7eeba0d571638b35ff0d8347a2/complexPyTorch/complexFunctions.py
 
 They were built to run with complex types for pytorch. 
@@ -54,9 +55,5 @@ python ComplexDeepLabV3/train_dcunet.py \
 					--ckpt checkpoints/checkpoint.pth \
 					--num_step 300 \
 					--validation_interval 150\
-					--complex
-
-
-
-# You can check other arguments from the source code. ( Sorry for the lack description. )                        
+					--complex                   
 ```
