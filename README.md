@@ -12,6 +12,7 @@ Original Code from https://github.com/sweetcocoa/DeepComplexUNetPyTorch/
 Code was adapted to work for Deep Lab V3 [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1706.05587), (L-C. Chen et al., 2017) 
 
 New functions adapted from https://github.com/wavefrontshaping/complexPyTorch/blob/70a511c1bedc4c7eeba0d571638b35ff0d8347a2/complexPyTorch/complexFunctions.py
+
 They were built to run with complex types for pytorch. 
 I had to change them to work with floats with 1 extra dimension of size 2 (Real, Imaginary)
 
@@ -24,9 +25,13 @@ complex_interpolate
 
 
 Reimplementaion of DeepLabV3 to work with complex numbers
+
 DeepLabv3 base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/segmentation/deeplabv3.py
+
 FCN head base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/segmentation/fcn.py#L36
+
 Resnet base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/resnet.py#L166
+
 
 
 
@@ -44,10 +49,10 @@ git+https://github.com/vBaiCai/python-pesq
 
 ## Train
 ---
-1. Download Datasets:
+Download Datasets:
 - [https://datashare.is.ed.ac.uk/handle/10283/2791](https://datashare.is.ed.ac.uk/handle/10283/2791)
 
-4. Train
+Train
 ```bash
 python ComplexUNet_code/DeepComplexUNetPyTorch-master/train_dcunet.py \
 					--batch_size 2 \
