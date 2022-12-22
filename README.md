@@ -1,9 +1,7 @@
 # Complex Deep-Lab V3
 
-Paper: [Phase-Aware Speech Enhancement with Deep Complex U-Net](https://openreview.net/forum?id=SkeRTsAcYm), (A. C. Parra, 2022) 
 
-
-PyTorch Implementation of [Phase-Aware Speech Enhancement with Deep Complex U-Net](https://openreview.net/forum?id=SkeRTsAcYm), (A. C. Parra, 2022) 
+PyTorch Implementation of [Complex Convolution Neural Network model (Complex DeepLab v3) on STFT time-varying frequency components for audio denoising](https://www.researchgate.net/publication/366517727_Complex_Convolution_Neural_Network_model_Complex_DeepLab_v3_on_STFT_time-varying_frequency_components_for_audio_denoising), (A. C. Parra, 2022) 
 
 
 ## Original Code
