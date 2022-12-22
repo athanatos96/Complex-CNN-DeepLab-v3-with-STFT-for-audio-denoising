@@ -11,6 +11,15 @@ Original Code from https://github.com/sweetcocoa/DeepComplexUNetPyTorch/
 ### Deep Lab V3
 Code was adapted to work for Deep Lab V3 [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/abs/1706.05587), (L-C. Chen et al., 2017) 
 
+Reimplementation of DeepLabV3 to work with complex numbers
+
+DeepLabv3 base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/segmentation/deeplabv3.py
+
+FCN head base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/segmentation/fcn.py#L36
+
+Resnet base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/resnet.py#L166
+
+
 #### Complex Layers
 New functions adapted from https://github.com/wavefrontshaping/complexPyTorch/blob/70a511c1bedc4c7eeba0d571638b35ff0d8347a2/complexPyTorch/complexFunctions.py
 
@@ -23,16 +32,6 @@ ComplexMaxPool2d
 ComplexReLU
 ComplexDropout
 complex_interpolate
-
-
-Reimplementaion of DeepLabV3 to work with complex numbers
-
-DeepLabv3 base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/segmentation/deeplabv3.py
-
-FCN head base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/segmentation/fcn.py#L36
-
-Resnet base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec1675d8f9d7757432a49/torchvision/models/resnet.py#L166
-
 
 
 
