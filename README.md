@@ -39,13 +39,13 @@ Resnet base code: https://github.com/pytorch/vision/blob/0dceac025615a1c2df6ec16
 See file requirements.txt
 
 ## Train
----
+
 Download Datasets:
 - [https://datashare.is.ed.ac.uk/handle/10283/2791](https://datashare.is.ed.ac.uk/handle/10283/2791)
 
 Train
 ```bash
-python ComplexUNet_code/DeepComplexUNetPyTorch-master/train_dcunet.py \
+python ComplexDeepLabV3/train_dcunet.py \
 					--batch_size 2 \
 					--train_signal Data/DS_10283_2791/Train/clean_trainset_28spk_wav \
 					--train_noise Data/DS_10283_2791/Train/noisy_trainset_28spk_wav \
